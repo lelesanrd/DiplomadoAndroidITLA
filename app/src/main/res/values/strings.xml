@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Diplomado Android ITLA</string>
+    <string name="app_name">Diplomado Android - ITLA</string>
+    <string name="autor_name">Leandro Leonardo</string>
+    <string name="autor_profesion">Desarrollador</string>
 </resources>
