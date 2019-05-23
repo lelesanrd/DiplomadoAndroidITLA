@@ -23,7 +23,7 @@ public class Splash extends AppCompatActivity {
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.splash_transition);
         tv.startAnimation(myanim);
         iv.startAnimation(myanim);
-        final Intent i = new Intent(this, MainActivity.class);
+        final Intent i = new Intent(this, MenuActivity.class);
         Thread timer = new Thread() {
             public void run() {
                 try {
