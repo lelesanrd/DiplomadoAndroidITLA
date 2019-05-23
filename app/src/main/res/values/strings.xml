@@ -2,4 +2,5 @@
     <string name="app_name">Diplomado Android - ITLA</string>
     <string name="autor_name">Leandro Leonardo</string>
     <string name="autor_profesion">Desarrollador</string>
+    <string name="autor_copyleft">Diplomado en desarrollo de aplicaciones android \n Todos los derechos reservados 2019 \n Leandro Leonardo </string>
 </resources>
