@@ -8,21 +8,44 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="ACTIVIDAD 1">
+        <menu>
+            <item
+                android:id="@+id/nav_tarea_1"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_tarea_1" />
+            <item
+                android:id="@+id/nav_examen_1"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_examen_1" />
+            <item
+                android:id="@+id/nav_actividad_1"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_actividad_1" />
+        </menu>
+    </item>
+
+
+    <item android:title="ACTIVIDAD 2">
+        <menu>
+            <item
+                android:id="@+id/nav_tarea_2"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="@string/menu_tarea_2" />
+            <item
+                android:id="@+id/nav_examen_2"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_examen_2" />
+            <item
+                android:id="@+id/nav_actividad_2"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="@string/menu_actividad_2" />
+        </menu>
+    </item>
+
+    <item android:title="COMUNICACIONES">
         <menu>
             <item
                 android:id="@+id/nav_share"

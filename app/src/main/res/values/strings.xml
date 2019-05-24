@@ -1,27 +1,39 @@
 <resources>
     <!-- ====================================================================== -->
 
-    <string name="app_name">Diplomado Android - ITLA</string>
+    <string name="app_name">Diplomado Android</string>
     <string name="autor_name">Leandro Leonardo</string>
     <string name="autor_profesion">Desarrollador</string>
     <string name="autor_copyleft">Diplomado en desarrollo de aplicaciones android \n Todos los derechos reservados 2019 \n Leandro Leonardo </string>
 
     <!-- ====================================================================== -->
 
-    <string name="title_activity_menu">Diplomado Android</string>
+    <string name="title_activity_menu">Leandro Leonardo</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Leandro Leonardo</string>
     <string name="nav_header_subtitle">leandroleonardo999@hotmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Ver autor</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <!-- ============================ GRUPO 1 ========================================== -->
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_tarea_1">Tarea 1</string>
+    <string name="menu_examen_1">Exámen 1</string>
+    <string name="menu_actividad_1">Actividad 1</string>
+
+    <!-- ============================ GRUPO 2 ========================================== -->
+
+    <string name="menu_tarea_2">Tarea 2</string>
+    <string name="menu_examen_2">Exámen 2</string>
+    <string name="menu_actividad_2">Actividad 2</string>
+
+    <!-- ============================ GRUPO 3 ========================================== -->
+
     <string name="menu_tools">Tools</string>
-    <string name="menu_share">Share</string>
-    <string name="menu_send">Send</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Acerca del autor</string>
 
     <!-- ====================================================================== -->
 </resources>
