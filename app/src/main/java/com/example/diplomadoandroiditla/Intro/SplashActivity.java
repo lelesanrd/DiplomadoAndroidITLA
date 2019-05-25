@@ -1,4 +1,4 @@
-package com.example.diplomadoandroiditla;
+package com.example.diplomadoandroiditla.Intro;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -9,7 +9,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Splash extends AppCompatActivity {
+import com.example.diplomadoandroiditla.MenuActivity;
+import com.example.diplomadoandroiditla.R;
+
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

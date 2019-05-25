@@ -84,7 +84,9 @@ public class MenuActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_examen_1) {
 
-        } else if (id == R.id.nav_actividad_1) {
+        } else if (id == R.id.nav_tarea_2) {
+
+        } else if (id == R.id.nav_examen_2) {
 
         } else if (id == R.id.nav_share) {
 

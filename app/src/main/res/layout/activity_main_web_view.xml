@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Actividad1.Tarea1.MainWebViewActivity">
+
+    <ImageView
+        android:id="@+id/ivInternet"
+        android:layout_width="138dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="665dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/internet" />
+
+    <EditText
+        android:id="@+id/etBusqueda"
+        android:layout_width="317dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="5dp"
+        android:ems="10"
+        android:fontFamily="@font/coming_soon"
+        android:hint="Búsqueda"
+        android:inputType="textPersonName"
+        android:textAllCaps="true"
+        android:textColor="#005CAA"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/ibBusqueda"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivInternet" />
+
+    <ImageButton
+        android:id="@+id/ibBusqueda"
+        android:layout_width="56dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/etBusqueda"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    <ImageButton
+        android:id="@+id/ibBusqueda2"
+        android:layout_width="376dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="5dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="386dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="@font/carter_one"
+        android:text="OPCIONALES"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#005CAA"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ibBusqueda" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="398dp"
+        android:layout_height="371dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="28dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ibBusqueda2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/coming_soon"
+            android:text="YouTube"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="#005CAA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/coming_soon"
+            android:text="eBay"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="#005CAA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/coming_soon"
+            android:text="Fun-Buggy"
+            android:textAlignment="viewStart"
+            android:textAllCaps="true"
+            android:textColor="#005CAA"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+</android.support.constraint.ConstraintLayout>

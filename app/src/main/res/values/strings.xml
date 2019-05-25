@@ -21,13 +21,11 @@
     <string name="menu_home">Inicio</string>
     <string name="menu_tarea_1">Tarea 1</string>
     <string name="menu_examen_1">Exámen 1</string>
-    <string name="menu_actividad_1">Actividad 1</string>
 
     <!-- ============================ GRUPO 2 ========================================== -->
 
     <string name="menu_tarea_2">Tarea 2</string>
     <string name="menu_examen_2">Exámen 2</string>
-    <string name="menu_actividad_2">Actividad 2</string>
 
     <!-- ============================ GRUPO 3 ========================================== -->
 
